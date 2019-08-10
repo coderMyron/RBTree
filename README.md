@@ -47,6 +47,7 @@
 注意：平衡后再替换到删除结点的位置。  
 
 ### 示例
+```
 RBTree * rbTree = [RBTree sharedRBTree];  
 [rbTree addValue:@1];  
 [rbTree addValue:@2];  
@@ -83,6 +84,7 @@ NSLog(@"%@",searchNode);
 NSLog(@"delete 4");  
 [rbTree deleteValue:@4];  
 NSLog(@"%@",rbTree);  
+```
 
 ### 打印
 ```
@@ -95,7 +97,6 @@ NSLog(@"%@",rbTree);
 | ┌───3黑  
 └───2红  
  └───1黑   
- ```
 中序遍历  
 1  
 2  
@@ -140,3 +141,4 @@ delete 4
 
 └───2黑  
  └───1红  
+ ```
