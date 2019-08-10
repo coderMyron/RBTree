@@ -17,6 +17,7 @@
 		A136A6AD22F9A69200557DBA /* RBTreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A136A6AC22F9A69200557DBA /* RBTreeUITests.m */; };
 		A136A6BC22F9A75000557DBA /* RBTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A136A6BB22F9A75000557DBA /* RBTreeNode.m */; };
 		A136A6BF22F9B2E600557DBA /* RBTree.m in Sources */ = {isa = PBXBuildFile; fileRef = A136A6BE22F9B2E600557DBA /* RBTree.m */; };
+		A16A768322FEACDC002D1658 /* 红黑树.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A16A768222FEACDC002D1658 /* 红黑树.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		A136A6BB22F9A75000557DBA /* RBTreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBTreeNode.m; sourceTree = "<group>"; };
 		A136A6BD22F9B2E600557DBA /* RBTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBTree.h; sourceTree = "<group>"; };
 		A136A6BE22F9B2E600557DBA /* RBTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBTree.m; sourceTree = "<group>"; };
+		A16A768222FEACDC002D1658 /* 红黑树.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "红黑树.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		A136A67C22F9A69000557DBA = {
 			isa = PBXGroup;
 			children = (
+				A16A768222FEACDC002D1658 /* 红黑树.jpg */,
 				A136A68722F9A69000557DBA /* RBTree */,
 				A136A6A022F9A69200557DBA /* RBTreeTests */,
 				A136A6AB22F9A69200557DBA /* RBTreeUITests */,
@@ -247,6 +250,7 @@
 			files = (
 				A136A69522F9A69100557DBA /* LaunchScreen.storyboard in Resources */,
 				A136A69222F9A69100557DBA /* Assets.xcassets in Resources */,
+				A16A768322FEACDC002D1658 /* 红黑树.jpg in Resources */,
 				A136A69022F9A69000557DBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
