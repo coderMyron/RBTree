@@ -25,6 +25,9 @@ NS_ASSUME_NONNULL_BEGIN
 /** 删除节点值 */
 - (void) deleteValue:(NSNumber*)value;
 
+/** 查找节点值 */
+- (RBTreeNode*) searchNodeWithParentValue:(RBTreeNode*)parentNode withSearchValue:(NSNumber*)value;
+
 /** 获取树高度 */
 - (int) getTreeHeight;
 

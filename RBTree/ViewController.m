@@ -47,6 +47,10 @@
         NSLog(@"%d",num);
     }];
     
+    NSLog(@"search 8");
+    RBTreeNode * searchNode = [rbTree searchNodeWithParentValue:rbTree.getRootTreeNode withSearchValue:@8];
+    NSLog(@"%@",searchNode);
+    
     NSLog(@"delete 4");
     [rbTree deleteValue:@4];
     NSLog(@"%@",rbTree);
