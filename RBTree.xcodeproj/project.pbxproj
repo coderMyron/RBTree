@@ -15,6 +15,8 @@
 		A136A69822F9A69100557DBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A136A69722F9A69100557DBA /* main.m */; };
 		A136A6A222F9A69200557DBA /* RBTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A136A6A122F9A69200557DBA /* RBTreeTests.m */; };
 		A136A6AD22F9A69200557DBA /* RBTreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A136A6AC22F9A69200557DBA /* RBTreeUITests.m */; };
+		A136A6BC22F9A75000557DBA /* RBTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A136A6BB22F9A75000557DBA /* RBTreeNode.m */; };
+		A136A6BF22F9B2E600557DBA /* RBTree.m in Sources */ = {isa = PBXBuildFile; fileRef = A136A6BE22F9B2E600557DBA /* RBTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		A136A6A822F9A69200557DBA /* RBTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RBTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A136A6AC22F9A69200557DBA /* RBTreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBTreeUITests.m; sourceTree = "<group>"; };
 		A136A6AE22F9A69200557DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A136A6BA22F9A75000557DBA /* RBTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBTreeNode.h; sourceTree = "<group>"; };
+		A136A6BB22F9A75000557DBA /* RBTreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBTreeNode.m; sourceTree = "<group>"; };
+		A136A6BD22F9B2E600557DBA /* RBTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBTree.h; sourceTree = "<group>"; };
+		A136A6BE22F9B2E600557DBA /* RBTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				A136A69322F9A69100557DBA /* LaunchScreen.storyboard */,
 				A136A69622F9A69100557DBA /* Info.plist */,
 				A136A69722F9A69100557DBA /* main.m */,
+				A136A6BA22F9A75000557DBA /* RBTreeNode.h */,
+				A136A6BB22F9A75000557DBA /* RBTreeNode.m */,
+				A136A6BD22F9B2E600557DBA /* RBTree.h */,
+				A136A6BE22F9B2E600557DBA /* RBTree.m */,
 			);
 			path = RBTree;
 			sourceTree = "<group>";
@@ -262,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A136A6BF22F9B2E600557DBA /* RBTree.m in Sources */,
 				A136A68D22F9A69000557DBA /* ViewController.m in Sources */,
+				A136A6BC22F9A75000557DBA /* RBTreeNode.m in Sources */,
 				A136A69822F9A69100557DBA /* main.m in Sources */,
 				A136A68A22F9A69000557DBA /* AppDelegate.m in Sources */,
 			);
@@ -442,7 +454,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myron.RBTree;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Stack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,7 +471,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.myron.RBTree;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myron.Stack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
