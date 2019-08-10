@@ -1,5 +1,5 @@
 # RBTree
-红黑树
+红黑树 插入、查找、删除
 
 ## 红黑树特性：
 1.节点是红色或者黑色  
@@ -8,7 +8,9 @@
 4.每个红色节点的两个子节点都是黑色的  
 5.从任意节点到其每个叶子的所有路径都包含相同数目的黑色节点  
 
-[!image](https://github.com/coderMyron/RBTree/blob/master/%E7%BA%A2%E9%BB%91%E6%A0%91.jpg)
+最坏时间复杂度为O(2lgN)  
+
+![image](https://github.com/coderMyron/RBTree/blob/master/%E7%BA%A2%E9%BB%91%E6%A0%91.jpg)
 
 ## 插入时需要根据当前指向的节点调整红黑树情况：    
 情况1：红黑树只有一个根节点，如果是根节点，那么直接将节点变黑即可  
